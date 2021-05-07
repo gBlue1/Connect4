@@ -1,0 +1,32 @@
+<!--///////////////////////////////////
+File Name: index.html
+Author: George Blue
+Description: This file contains the html methods used to display the outline and title of the connect 4 graphics
+Date: 5/5/21
+EECS 368 Project
+///////////////////////////////////-->
+
+    <html>
+    <body>
+    <link rel = "stylesheet" href = "style.css">
+      <canvas id="myCanvas"
+              width="740"
+              height="640"
+              style="border: 8px solid black"
+              style="background-size: 100% 100%";>
+      </canvas>
+    
+     <h1>Connect 4</h1>
+     <h2> Made by George Blue </h2>
+     <div class ="red_player"> Red's turn!</div>
+     
+     <div class ="yellow_player">Yellow's turn! </div>
+
+     <!-- taken from https://stackoverflow.com/questions/5611119/how-to-make-a-refresh-button-using-javascript -->
+     <a href="javascript:location.reload(true)">RESET</a>
+    <!------------------------------------------------>
+    
+    </body>
+    <script src="game.js">
+    </script>
+    </html>  
