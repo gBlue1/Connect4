@@ -66,6 +66,8 @@ h2{
     text-align: center;
 }
 
+
+/*settings for the refresh button display */
 a{
     position: absolute;
     top: 39rem;
